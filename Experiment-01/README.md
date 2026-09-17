@@ -26,3 +26,30 @@ To write an Arduino program to blink an LED connected to ESP32 GPIO2 at 1 Hz fre
 
 ```text
 ESP32 GPIO2 ──── 220Ω ──── LED(+) ──── LED(−) ──── GND
+```
+**Code:**
+```cpp
+#define LED_PIN 2
+
+void setup() {
+  pinMode(LED_PIN, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(LED_PIN, HIGH);  // LED ON
+  delay(500);                   // Wait 500 ms
+  digitalWrite(LED_PIN, LOW);   // LED OFF
+  delay(500);                   // Wait 500 ms
+}
+```
+
+**Procedure:**
+1. Connect the LED to GPIO2 of ESP32 through a 220Ω resistor as per the circuit diagram.
+2. Connect the LED cathode to GND of the ESP32.
+3. Open Arduino IDE. Select Board: **ESP32 Dev Module** and the correct COM port.
+4. Enter the code and click **Upload**.
+5. Once uploaded, observe the LED on the breadboard.
+
+**Result:** The LED blinks continuously at 1 Hz (500 ms ON, 500 ms OFF), confirming successful GPIO digital output control on the ESP32.
+
+---

@@ -53,3 +53,5 @@ void loop() {
 **Result:** The LED blinks continuously at 1 Hz (500 ms ON, 500 ms OFF), confirming successful GPIO digital output control on the ESP32.
 
 ---
+
+![ESP32 LED Blink](https://github.com/me-jobis/IoT_Lab_Experiments/blob/main/Experiment-01/ESP32__LED_BLINK.gif?raw=true)

@@ -59,3 +59,5 @@ void loop() {
 **Result:** The LED turns ON when the push-button is pressed and turns OFF when released, confirming successful GPIO digital input reading and output control on the ESP32.
 
 ---
+
+![ESP32 LED Blink](https://github.com/me-jobis/IoT_Lab_Experiments/blob/main/Experiment-02/ESP32_LED_BLINK(S).gif?raw=true)

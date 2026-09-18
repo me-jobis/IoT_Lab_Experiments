@@ -54,4 +54,4 @@ void loop() {
 
 ---
 
-![ESP32 LED Blink](https://github.com/me-jobis/IoT_Lab_Experiments/blob/main/Experiment-01/ESP32__LED_BLINK.gif?raw=true)
+![ESP32 LED Blink](https://github.com/me-jobis/IoT_Lab_Experiments/blob/main/Experiment-01/ESP32_LED_BLINK.gif?raw=true)

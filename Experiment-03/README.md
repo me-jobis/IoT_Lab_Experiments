@@ -68,3 +68,5 @@ void loop() {
 **Result:** The 16×2 LCD displays "JECC IoT Lab" on Line 1 and a live incrementing counter on Line 2, confirming successful I2C communication between ESP32 and the LCD module.
 
 ---
+
+![ESP32 LCD Display](https://github.com/me-jobis/IoT_Lab_Experiments/blob/main/Experiment-03/ESP32%20LCD%20Display.gif?raw=true)

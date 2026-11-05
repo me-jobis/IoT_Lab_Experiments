@@ -69,3 +69,5 @@ finally:
 **Result:** The LED turns ON when the push-button is pressed and turns OFF when released, confirming successful GPIO digital input reading using internal pull-up resistor and output control on Raspberry Pi using Python.
 
 ---
+
+![ESP32 LCD Display](https://github.com/me-jobis/IoT_Lab_Experiments/blob/main/Experiment-05/Raspberry%20Pi%20LED%20Blink(S).gif?raw=true)
